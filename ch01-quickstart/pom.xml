@@ -4,12 +4,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.sai628.springboot</groupId>
-    <artifactId>chapter-2-spring-boot-config</artifactId>
+    <artifactId>ch01-quickstart</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>chapter-2-spring-boot-config</name>
-    <description>《Spring Boot 2.x 核心技术实战 - 上 基础篇》第 2 章《Spring Boot 配置》Demo</description>
+    <name>ch01-quickstart</name>
+    <description>《Spring Boot 2.x 核心技术实战 - 上 基础篇》第 1 章《Spring Boot 入门》Demo</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -29,20 +29,6 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-
-        <!-- 配置处理器 -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-configuration-processor</artifactId>
-            <optional>true</optional>
-        </dependency>
-
-        <!-- 自定义 swagger2 starter 组件依赖 -->
-        <dependency>
-            <groupId>com.spring4all</groupId>
-            <artifactId>spring-boot-starter-swagger</artifactId>
-            <version>1.5.1.RELEASE</version>
         </dependency>
 
         <!-- 测试依赖 -->

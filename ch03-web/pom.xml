@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.sai628.springboot</groupId>
-    <artifactId>chapter-3-spring-boot-web</artifactId>
+    <artifactId>ch03-web</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>chapter-3-spring-boot-web</name>
+    <name>ch03-web</name>
     <description>《Spring Boot 2.x 核心技术实战 - 上 基础篇》第 3 章《Web 开发》Demo</description>
 
     <parent>
